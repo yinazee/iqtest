@@ -11,7 +11,7 @@ My Solution:
 
 function iqTest(numbers){
   numbers = numbers.split(" ").map(function(el){return parseInt(el)});
-  
+
   var odd = numbers.filter(function(el){ return el % 2 === 1});
   console.log(odd);
   var even = numbers.filter(function(el){ return el % 2 === 0});
